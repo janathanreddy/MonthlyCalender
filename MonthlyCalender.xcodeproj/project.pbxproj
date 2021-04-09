@@ -15,6 +15,8 @@
 		CFB75AD626207E71008B583B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB75AD426207E71008B583B /* LaunchScreen.storyboard */; };
 		CFB75AE126207E71008B583B /* MonthlyCalenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB75AE026207E71008B583B /* MonthlyCalenderTests.swift */; };
 		CFB75AEC26207E71008B583B /* MonthlyCalenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB75AEB26207E71008B583B /* MonthlyCalenderUITests.swift */; };
+		CFB75AFD26208DC5008B583B /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB75AFC26208DC5008B583B /* CollectionViewCell.swift */; };
+		CFB75B0226208F3A008B583B /* CalenderHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB75B0126208F3A008B583B /* CalenderHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		CFB75AE726207E71008B583B /* MonthlyCalenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonthlyCalenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFB75AEB26207E71008B583B /* MonthlyCalenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyCalenderUITests.swift; sourceTree = "<group>"; };
 		CFB75AED26207E71008B583B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB75AFC26208DC5008B583B /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CFB75B0126208F3A008B583B /* CalenderHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				CFB75AD226207E71008B583B /* Assets.xcassets */,
 				CFB75AD426207E71008B583B /* LaunchScreen.storyboard */,
 				CFB75AD726207E71008B583B /* Info.plist */,
+				CFB75AFC26208DC5008B583B /* CollectionViewCell.swift */,
+				CFB75B0126208F3A008B583B /* CalenderHelper.swift */,
 			);
 			path = MonthlyCalender;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				CFB75ACE26207E6F008B583B /* ViewController.swift in Sources */,
 				CFB75ACA26207E6F008B583B /* AppDelegate.swift in Sources */,
+				CFB75AFD26208DC5008B583B /* CollectionViewCell.swift in Sources */,
 				CFB75ACC26207E6F008B583B /* SceneDelegate.swift in Sources */,
+				CFB75B0226208F3A008B583B /* CalenderHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
